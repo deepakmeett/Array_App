@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    
+    
+    <item name="lor" type="color">
+        <color name="black">#000000</color>
+        <color name="blue">#4885ed</color>
+        <color name="white">#ffff</color>
+        <color name="red">#F00A0A</color>
+        <color name="green">#10A813</color>
+    </item>
+
+</resources>
