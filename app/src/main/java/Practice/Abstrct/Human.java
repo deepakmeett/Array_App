@@ -6,6 +6,8 @@ class Human extends Interr { //If we extend abstract class in normal method then
         System.out.println( "add" );
     }
 
-    
+    @Override
+    public void abc() {
+        super.abc();
+    }
 }
-

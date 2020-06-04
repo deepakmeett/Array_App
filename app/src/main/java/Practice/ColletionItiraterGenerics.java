@@ -55,7 +55,5 @@ public class ColletionItiraterGenerics {
         System.out.print( im.next()+ ", ");
         System.out.print( im.next()+ ", ");
         System.out.println();
-
     }
-
 }

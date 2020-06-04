@@ -10,7 +10,6 @@ public interface A { // In interface we declare name as interface
     
     int a = 10;//We can declare variable as well.
 }
-
  interface C extends A{
     
 }

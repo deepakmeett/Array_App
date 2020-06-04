@@ -1,5 +1,6 @@
 package Practice;
 import java.util.ArrayDeque;
+import java.util.LinkedList;
 import java.util.Queue;
 public class Queu {
 
@@ -8,7 +9,7 @@ public class Queu {
         System.out.println( "FIFO(First in First Out) concept uses in Queue" );
         System.out.println(  );
 
-        Queue<String> waitingQueue = new ArrayDeque<>(  );//Creating a Queue(We can use Array or LinkedList)
+        Queue<String> waitingQueue = new LinkedList<>(  );//Creating a Queue(We can use Array or LinkedList)
 
         waitingQueue.add( "Jack" );//Adding new element in Queue
         waitingQueue.add( "King" );

@@ -21,7 +21,7 @@ public class HshTable {
         hashtable.put( "z", "Andrew" );
         hashtable.put( "x", "John" );
         hashtable.put( "f", "Amy" );
-        hashtable.put( "k", "Sky" );
+        hashtable.put( "k", "Amy" );
         hashtable.put( "e", "Xavier" );//It doesn't allow order like alphabetic or numeric 
         
         System.out.println( hashtable.get( "a" ) );// for only single output

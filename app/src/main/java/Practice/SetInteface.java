@@ -16,7 +16,6 @@ public class SetInteface {
         list.add( 0 );
         list.add( 3 ); // Set will not print duplicate element. It will print only unique elements.
         
-        
         for (int i :list) {
             System.out.println( i );
         }

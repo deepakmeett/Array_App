@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+
 public class ListInteface {
 
     public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class ListInteface {
         list.add( 2 );
         list.add( 2 );
         list.add( 3, 8 ); // We can not add between in the collection. But we can add between in List
-        
+        int m = list.indexOf( 3 );
+        System.out.println("index of " + m );
 //        Collections.sort( list ); // We can not sort in the collection. But we can apply sort in List
         
         for (int i :list) {
