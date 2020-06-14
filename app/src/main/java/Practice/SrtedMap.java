@@ -28,7 +28,17 @@ public class SrtedMap {
         System.out.println( "all values after this point 2 : " + sortedMap.tailMap(2) );
         System.out.println();
         System.out.println("To get particular value : " + sortedMap.get( 7 ));
-
+        System.out.println();
+        System.out.println("HashCode is used to generate a hashcode for the given map containing key and values : " + sortedMap.hashCode());
+        System.out.println();
+        System.out.println("If we only want to get values : " + sortedMap.values());
+        System.out.println("If we only want to get keys : " + sortedMap.keySet());
+        System.out.println();
+        
+        SortedMap<Integer, String> sortedMap1 = new TreeMap<>();
+        sortedMap1.put( 10, "j" );
+        sortedMap1.putAll( sortedMap );
+        System.out.println("If we want to combine two sortedMap list data : " + sortedMap1);
     }
 
 }
