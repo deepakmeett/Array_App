@@ -12,7 +12,7 @@ public class Hshmap {
 //          About HashMap
     
 //    Introduced in 1.2 version
-//    It is not thread safe and unsynchronized
+//    It is not thread safe and un-synchronized
 //    It is fast
 //    Works with single thread
 //    Allows one null key

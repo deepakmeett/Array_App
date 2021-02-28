@@ -10,10 +10,13 @@ public class Stak {
         
         Stack<String> stackOfCards = new Stack<>();//Creating a Stack
         
-        stackOfCards.push( "Jack" );//Pushing(Adding) new items to the stackOfCards
-        stackOfCards.push( "Queen" );
-        stackOfCards.push( "King" );
-        stackOfCards.push( "Ace" );
+        stackOfCards.push( "Sun" );//Pushing(Adding) new items to the stackOfCards
+        stackOfCards.push( "Mon" );
+        stackOfCards.push( "Tue" );
+        stackOfCards.push( "Wed" );
+        stackOfCards.push( "Thu" );
+        stackOfCards.push( "Fri" );
+        stackOfCards.push( "Sat" );
         System.out.println( "Stack = " + stackOfCards ); 
         System.out.println(  );
         
