@@ -1,5 +1,4 @@
 package Practice;
-import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;

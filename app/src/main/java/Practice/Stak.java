@@ -1,5 +1,4 @@
 package Practice;
-import java.util.EmptyStackException;
 import java.util.Stack;
 public class Stak {
 

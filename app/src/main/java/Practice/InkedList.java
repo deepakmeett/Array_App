@@ -1,8 +1,5 @@
 package Practice;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.ListIterator;
 public class InkedList {
 
     public static void main(String[] args) {

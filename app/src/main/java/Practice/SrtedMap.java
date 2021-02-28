@@ -1,8 +1,6 @@
 package Practice;
 import java.util.SortedMap;
-import java.util.SortedSet;
 import java.util.TreeMap;
-import java.util.TreeSet;
 public class SrtedMap {
 
     public static void main(String[] args) {
