@@ -14,6 +14,7 @@ public class ArrayLis {
         // We don't declare the size of the list. 
         //allows duplicate number
         //We can add and remove value
+        //We can add value in between on aerialist.
         ArrayList<String> arrayList = new ArrayList<>();
 //        arrayList.add( 2 );
 //        arrayList.add( 1 );
@@ -27,7 +28,7 @@ public class ArrayLis {
 //        arrayList.add( 2 );
 //        arrayList.add( 2 );
 //        arrayList.remove( 3 );
-//        arrayList.add( 2, 0 );//We can add value in between on aerialist.
+//        arrayList.add( 2, 0 );
         arrayList.add( "Sun" );
         arrayList.add( "Mon" );
         arrayList.add( "Tue" );
@@ -57,7 +58,7 @@ public class ArrayLis {
         System.out.println("************************");
         SimpleDateFormat sdf = new SimpleDateFormat( "EEEE", Locale.ENGLISH);
         Date d = new Date();
-        System.out.println("Day Name : "+sdf.format(d));
+        System.out.println("Today day Name : "+sdf.format(d));
 //        System.out.println();
 //        System.out.println();
 //        int name = arrayList.size();
